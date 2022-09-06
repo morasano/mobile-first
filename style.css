@@ -147,7 +147,17 @@ main {
   color: #757575;
 }
 
+.main-tables-conteiner {
+  display: flex;
+  height: auto;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+
 .main-currency-table {
+  scroll-snap-align: center;
+
   width: 70%;
   min-width: 235px;
   max-width: 500px;
